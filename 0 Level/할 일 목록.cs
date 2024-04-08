@@ -4,32 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Program
+namespace level0u
 {
-    public static void Main()
+    public class Program
     {
-        Solution solution = new Solution();
-        string[] todo_list = { "problemsolving", "practiceguitar", "swim", "studygraph" };
-        bool[] finished = { true, false, true, false };
-        Console.WriteLine(solution.solution(todo_list, finished));
-    }
-}
-public class Solution
-{
-    public string[] solution(string[] todo_list, bool[] finished)
-    {
-        string[] answer = new string[] { };
-
-        List<string> list = new List<string>(); 
-        for (int i = 0; i < todo_list.Length; i++)
+        public static void Main()
         {
-            if (!finished[i])
-            {
-                list.Add(todo_list[i]);
-            }
+            Solution solution = new Solution();
+            string[] todo_list = { "problemsolving", "practiceguitar", "swim", "studygraph" };
+            bool[] finished = { true, false, true, false };
+            Console.WriteLine(solution.solution(todo_list, finished));
         }
-        answer = list.ToArray();  
-
-        return answer;
     }
+    public class Solution
+    {
+        public string[] solution(string[] todo_list, bool[] finished)
+        {
+            string[] answer = new string[] { };
+
+            List<string> list = new List<string>();
+            for (int i = 0; i < todo_list.Length; i++)
+            {
+                if (!finished[i])
+                {
+                    list.Add(todo_list[i]);
+                }
+            }
+            answer = list.ToArray();
+
+            return answer;
+        }
+    }
+
 }

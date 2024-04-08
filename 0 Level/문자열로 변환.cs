@@ -4,24 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Program
+namespace level0j
 {
-    public static void Main()
+    public class Program
     {
-        Solution solution = new Solution();
-        Console.WriteLine(solution.solution(123));
-        Console.WriteLine(solution.solution(2573));
+        public static void Main()
+        {
+            Solution solution = new Solution();
+            Console.WriteLine(solution.solution(123));
+            Console.WriteLine(solution.solution(2573));
+        }
     }
-}
-public class Solution
-{
-    public string solution(int n)
+    public class Solution
     {
-        string answer = "";
+        public string solution(int n)
+        {
+            string answer = "";
 
-        n.ToString();
-        answer += n;
+            n.ToString();
+            answer += n;
 
-        return answer;
+            return answer;
+        }
     }
+
 }

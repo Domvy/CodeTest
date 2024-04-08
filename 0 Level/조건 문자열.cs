@@ -4,31 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class 조건_문자열
+namespace level0r
 {
-    public static void Main()
+    public class 조건_문자열
     {
-        Solution solution = new Solution();
-        Console.WriteLine(solution.solution("<", "=", 20, 50));
-    }}
-
-public class Solution
-{
-    public int solution(string ineq, string eq, int n, int m)
-    {
-        int answer = 0;
-        bool a;
-        if (eq == "=")
+        public static void Main()
         {
-            a = ineq == "<" ? n <= m : n >= m;
+            Solution solution = new Solution();
+            Console.WriteLine(solution.solution("<", "=", 20, 50));
         }
-        else
-        {
-            a = ineq == "<" ? n < m : n > m;
-        }
-        answer = a ? 1 : 0;
-
-        return answer;
     }
+
+    public class Solution
+    {
+        public int solution(string ineq, string eq, int n, int m)
+        {
+            int answer = 0;
+            bool a;
+            if (eq == "=")
+            {
+                a = ineq == "<" ? n <= m : n >= m;
+            }
+            else
+            {
+                a = ineq == "<" ? n < m : n > m;
+            }
+            answer = a ? 1 : 0;
+
+            return answer;
+        }
+    }
+
 }
 

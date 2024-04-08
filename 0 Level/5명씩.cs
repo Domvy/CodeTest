@@ -4,23 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Program
+namespace level0b
 {
-    public static void Main()
+    public class Program
     {
-        Solution solution = new Solution();
-        string[] names = { "nami", "ahri", "jayce", "garen", "ivern", "vex", "jinx" };
-        Console.WriteLine(solution.solution(names));
+        public static void Main()
+        {
+            Solution solution = new Solution();
+            string[] names = { "nami", "ahri", "jayce", "garen", "ivern", "vex", "jinx" };
+            Console.WriteLine(solution.solution(names));
+        }
+    }
+    public class Solution
+    {
+        public string[] solution(string[] names)
+        {
+            string[] answer = new string[] { };
+
+            answer = names.Where((x, Index) => Index % 5 == 0).ToArray();
+
+            return answer;
+        }
     }
 }
-public class Solution
-{
-    public string[] solution(string[] names)
-    {
-        string[] answer = new string[] { };
 
-        answer = names.Where((x, Index) => Index % 5 == 0).ToArray();
-
-        return answer;
-    }
-}
