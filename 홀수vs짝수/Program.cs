@@ -9,8 +9,8 @@ public class Program
     public static void Main()
     {
         Solution solution = new Solution();
-        int[] num_list = { 12, 4, 15, 46, 38, -2, 15 };
-        Console.WriteLine(solution.solution(num_list));
+        int[] num_list = { 4, 2, 6, 1, 7, 6 };        
+        Console.WriteLine(solution.solution(num_list));        
     }
 }
 public class Solution
@@ -19,13 +19,9 @@ public class Solution
     {
         int answer = 0;
 
-        int idx = 0;
-        foreach(int i in num_list)
-        {
-            answer = i * -1 >= 0 ? idx : -1;
-            if (answer != -1) break;                        
-            idx++;
-        }
+        int a = Enumerable.Sum(num_list.Where((x, Index) => Index % 2 == 1));
+        int b = Enumerable.Sum(num_list.Where((x,Index) => Index % 2 == 0));
+        answer = a <= b ? b : a;
 
         return answer;
     }
