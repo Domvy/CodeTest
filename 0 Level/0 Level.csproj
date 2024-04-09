@@ -32,12 +32,19 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>일로만들기.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1로 만들기.cs" />
     <Compile Include="2의 영역.cs" />
     <Compile Include="5명씩.cs" />
+    <Compile Include="길이에 따른 연산.cs" />
+    <Compile Include="원하는 문자열 찾기.cs" />
+    <Compile Include="조건에 맞게 수열 변환하기 1.cs" />
     <Compile Include="n개 간격의 원소들.cs" />
     <Compile Include="n번째 원소까지.cs" />
     <Compile Include="n번째 원소부터.cs" />
@@ -55,6 +62,7 @@
     <Compile Include="왼쪽 오른쪽.cs" />
     <Compile Include="조건 문자열.cs" />
     <Compile Include="조건에 맞게 수열 변환하기.cs" />
+    <Compile Include="조건에 맞게 수열 변환하기2.cs" />
     <Compile Include="첫 번째로 나오는 음수.cs" />
     <Compile Include="할 일 목록.cs" />
     <Compile Include="홀수vs짝수.cs" />
