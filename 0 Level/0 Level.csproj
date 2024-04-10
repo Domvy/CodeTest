@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>일로만들기.Program</StartupObject>
+    <StartupObject>A_강조하기.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -42,7 +42,11 @@
     <Compile Include="1로 만들기.cs" />
     <Compile Include="2의 영역.cs" />
     <Compile Include="5명씩.cs" />
+    <Compile Include="A 강조하기.cs" />
     <Compile Include="길이에 따른 연산.cs" />
+    <Compile Include="배열에서 문자열 대소문자 변환하기.cs" />
+    <Compile Include="소문자로 바꾸기.cs" />
+    <Compile Include="대문자로 바꾸기.cs" />
     <Compile Include="원하는 문자열 찾기.cs" />
     <Compile Include="조건에 맞게 수열 변환하기 1.cs" />
     <Compile Include="n개 간격의 원소들.cs" />
@@ -64,6 +68,7 @@
     <Compile Include="조건에 맞게 수열 변환하기.cs" />
     <Compile Include="조건에 맞게 수열 변환하기2.cs" />
     <Compile Include="첫 번째로 나오는 음수.cs" />
+    <Compile Include="특정한 문자를 대문자로 바꾸기.cs" />
     <Compile Include="할 일 목록.cs" />
     <Compile Include="홀수vs짝수.cs" />
   </ItemGroup>
