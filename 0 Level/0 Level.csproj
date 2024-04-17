@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>두_수의_합.Program</StartupObject>
+    <StartupObject>정수를_나선형으로_배치하기.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -45,12 +45,16 @@
     <Compile Include="5명씩.cs" />
     <Compile Include="A 강조하기.cs" />
     <Compile Include="ad 제거하기.cs" />
+    <Compile Include="I로 만들기.cs" />
     <Compile Include="rny_string.cs" />
     <Compile Include="x 사이의 개수.cs" />
     <Compile Include="간단한 식 계산하기.cs" />
     <Compile Include="공백으로 구분하기1.cs" />
     <Compile Include="공백으로 구분하기2.cs" />
+    <Compile Include="그림 확대.cs" />
     <Compile Include="길이에 따른 연산.cs" />
+    <Compile Include="꼬리 문자열.cs" />
+    <Compile Include="날짜 비교하기.cs" />
     <Compile Include="두 수의 합.cs" />
     <Compile Include="뒤에서 5등 위로.cs" />
     <Compile Include="무작위로 K개의 수 뽑기.cs" />
@@ -73,8 +77,12 @@
     <Compile Include="소문자로 바꾸기.cs" />
     <Compile Include="대문자로 바꾸기.cs" />
     <Compile Include="원하는 문자열 찾기.cs" />
+    <Compile Include="이차원 배열 대각선 순회하기.cs" />
     <Compile Include="전국대회 선발 고사.cs" />
+    <Compile Include="정사각형으로 만들기.cs" />
     <Compile Include="정수 부분.cs" />
+    <Compile Include="정수 찾기.cs" />
+    <Compile Include="정수를 나선형으로 배치하기.cs" />
     <Compile Include="조건에 맞게 수열 변환하기 1.cs" />
     <Compile Include="n개 간격의 원소들.cs" />
     <Compile Include="n번째 원소까지.cs" />
@@ -94,7 +102,11 @@
     <Compile Include="조건 문자열.cs" />
     <Compile Include="조건에 맞게 수열 변환하기.cs" />
     <Compile Include="조건에 맞게 수열 변환하기2.cs" />
+    <Compile Include="주사위 게임.cs" />
     <Compile Include="첫 번째로 나오는 음수.cs" />
+    <Compile Include="커피 심부름.cs" />
+    <Compile Include="특별한 2차원 배열 2.cs" />
+    <Compile Include="특별한 이차원 배열 1.cs" />
     <Compile Include="특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.cs" />
     <Compile Include="특정한 문자를 대문자로 바꾸기.cs" />
     <Compile Include="할 일 목록.cs" />
