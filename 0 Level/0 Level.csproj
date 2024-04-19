@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>정수를_나선형으로_배치하기.Program</StartupObject>
+    <StartupObject>최빈값_구하기.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -58,6 +58,7 @@
     <Compile Include="두 수의 합.cs" />
     <Compile Include="뒤에서 5등 위로.cs" />
     <Compile Include="무작위로 K개의 수 뽑기.cs" />
+    <Compile Include="문자 반복 출력하기.cs" />
     <Compile Include="문자열 묶기.cs" />
     <Compile Include="문자열 바꿔서 찾기.cs" />
     <Compile Include="문자열 잘라서 정렬하기.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="세 개의 구분자.cs" />
     <Compile Include="소문자로 바꾸기.cs" />
     <Compile Include="대문자로 바꾸기.cs" />
+    <Compile Include="옷가게 할인 받기.cs" />
     <Compile Include="원하는 문자열 찾기.cs" />
     <Compile Include="이차원 배열 대각선 순회하기.cs" />
     <Compile Include="전국대회 선발 고사.cs" />
@@ -103,12 +105,19 @@
     <Compile Include="조건에 맞게 수열 변환하기.cs" />
     <Compile Include="조건에 맞게 수열 변환하기2.cs" />
     <Compile Include="주사위 게임.cs" />
+    <Compile Include="직각삼각형 출력하기.cs" />
+    <Compile Include="짝수 홀수 개수.cs" />
+    <Compile Include="짝수는 싫어요.cs" />
     <Compile Include="첫 번째로 나오는 음수.cs" />
+    <Compile Include="최빈값 구하기.cs" />
     <Compile Include="커피 심부름.cs" />
     <Compile Include="특별한 2차원 배열 2.cs" />
     <Compile Include="특별한 이차원 배열 1.cs" />
     <Compile Include="특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.cs" />
     <Compile Include="특정한 문자를 대문자로 바꾸기.cs" />
+    <Compile Include="피자 나눠 먹기 1.cs" />
+    <Compile Include="피자 나눠 먹기 2.cs" />
+    <Compile Include="피자 나눠 먹기 3.cs" />
     <Compile Include="할 일 목록.cs" />
     <Compile Include="홀수vs짝수.cs" />
   </ItemGroup>
