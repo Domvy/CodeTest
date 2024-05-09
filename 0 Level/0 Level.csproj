@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>영어가_싫어요.Program</StartupObject>
+    <StartupObject>k의_개수.Solution.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -47,8 +47,11 @@
     <Compile Include="5명씩.cs" />
     <Compile Include="A 강조하기.cs" />
     <Compile Include="ad 제거하기.cs" />
+    <Compile Include="A로 B만들기.cs" />
     <Compile Include="I로 만들기.cs" />
+    <Compile Include="k의 개수.cs" />
     <Compile Include="n의 배수 고르기.cs" />
+    <Compile Include="OX 퀴즈.cs" />
     <Compile Include="rny_string.cs" />
     <Compile Include="x 사이의 개수.cs" />
     <Compile Include="가까운 수.cs" />
@@ -71,6 +74,7 @@
     <Compile Include="모음 제거.cs" />
     <Compile Include="무작위로 K개의 수 뽑기.cs" />
     <Compile Include="문자 반복 출력하기.cs" />
+    <Compile Include="문자열 계산하기.cs" />
     <Compile Include="문자열 묶기.cs" />
     <Compile Include="문자열 바꿔서 찾기.cs" />
     <Compile Include="문자열 잘라서 정렬하기.cs" />
@@ -99,6 +103,7 @@
     <Compile Include="대문자로 바꾸기.cs" />
     <Compile Include="소인수분해.cs" />
     <Compile Include="순서쌍의 개수.cs" />
+    <Compile Include="숨어있는 숫자의 덧셈.cs" />
     <Compile Include="숨어있는 숫자의 덧셈 1.cs" />
     <Compile Include="숫자 찾기.cs" />
     <Compile Include="암호 해독.cs" />
