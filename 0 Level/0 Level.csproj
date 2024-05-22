@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>외계어_사전.Program</StartupObject>
+    <StartupObject>유한소수_판별하기.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -60,6 +60,7 @@
     <Compile Include="가장 큰 수 찾기.cs" />
     <Compile Include="간단한 식 계산하기.cs" />
     <Compile Include="개미 군단.cs" />
+    <Compile Include="겹치는 선분의 길이.cs" />
     <Compile Include="공 던지기.cs" />
     <Compile Include="공백으로 구분하기1.cs" />
     <Compile Include="공백으로 구분하기2.cs" />
@@ -118,9 +119,11 @@
     <Compile Include="외계어 사전.cs" />
     <Compile Include="외계행성의 나이.cs" />
     <Compile Include="원하는 문자열 찾기.cs" />
+    <Compile Include="유한소수 판별하기.cs" />
     <Compile Include="이차원 배열 대각선 순회하기.cs" />
     <Compile Include="인덱스 바꾸기.cs" />
     <Compile Include="잘라서 배열로 연결하기.cs" />
+    <Compile Include="저주의 숫자 3.cs" />
     <Compile Include="전국대회 선발 고사.cs" />
     <Compile Include="정사각형으로 만들기.cs" />
     <Compile Include="정수 부분.cs" />
@@ -165,6 +168,7 @@
     <Compile Include="특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.cs" />
     <Compile Include="특정한 문자를 대문자로 바꾸기.cs" />
     <Compile Include="팩토리얼.cs" />
+    <Compile Include="평행.cs" />
     <Compile Include="피자 나눠 먹기 1.cs" />
     <Compile Include="피자 나눠 먹기 2.cs" />
     <Compile Include="피자 나눠 먹기 3.cs" />
