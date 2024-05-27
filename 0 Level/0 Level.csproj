@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>유한소수_판별하기.Program</StartupObject>
+    <StartupObject>연속된_수의_합.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -69,16 +69,20 @@
     <Compile Include="길이에 따른 연산.cs" />
     <Compile Include="꼬리 문자열.cs" />
     <Compile Include="날짜 비교하기.cs" />
+    <Compile Include="다음에 올 숫자.cs" />
     <Compile Include="다항식 더하기.cs" />
     <Compile Include="대문자와 소문자.cs" />
     <Compile Include="두 수의 합.cs" />
     <Compile Include="뒤에서 5등 위로.cs" />
+    <Compile Include="등수 매기기.cs" />
+    <Compile Include="로그인 성공.cs" />
     <Compile Include="모스 부호.cs" />
     <Compile Include="모음 제거.cs" />
     <Compile Include="무작위로 K개의 수 뽑기.cs" />
     <Compile Include="문자 반복 출력하기.cs" />
     <Compile Include="문자열 계산하기.cs" />
     <Compile Include="문자열 묶기.cs" />
+    <Compile Include="문자열 밀기.cs" />
     <Compile Include="문자열 바꿔서 찾기.cs" />
     <Compile Include="문자열 잘라서 정렬하기.cs" />
     <Compile Include="문자열 정렬하기 2.cs" />
@@ -114,12 +118,15 @@
     <Compile Include="암호 해독.cs" />
     <Compile Include="약수 구하기.cs" />
     <Compile Include="양꼬치.cs" />
+    <Compile Include="연속된 수의 합.cs" />
     <Compile Include="영어가 싫어요.cs" />
     <Compile Include="옷가게 할인 받기.cs" />
+    <Compile Include="옹알이 1.cs" />
     <Compile Include="외계어 사전.cs" />
     <Compile Include="외계행성의 나이.cs" />
     <Compile Include="원하는 문자열 찾기.cs" />
     <Compile Include="유한소수 판별하기.cs" />
+    <Compile Include="이진수 더하기.cs" />
     <Compile Include="이차원 배열 대각선 순회하기.cs" />
     <Compile Include="인덱스 바꾸기.cs" />
     <Compile Include="잘라서 배열로 연결하기.cs" />
@@ -148,6 +155,7 @@
     <Compile Include="조건 문자열.cs" />
     <Compile Include="조건에 맞게 수열 변환하기.cs" />
     <Compile Include="조건에 맞게 수열 변환하기2.cs" />
+    <Compile Include="종이 자르기.cs" />
     <Compile Include="주사위 게임.cs" />
     <Compile Include="주사위의 개수.cs" />
     <Compile Include="중복된 문자 제거.cs" />
@@ -159,11 +167,13 @@
     <Compile Include="첫 번째로 나오는 음수.cs" />
     <Compile Include="최댓값만들기 2.cs" />
     <Compile Include="최빈값 구하기.cs" />
+    <Compile Include="치킨 쿠폰.cs" />
     <Compile Include="캐릭터의 좌표.cs" />
     <Compile Include="커피 심부름.cs" />
     <Compile Include="컨트롤 제트.cs" />
     <Compile Include="특별한 2차원 배열 2.cs" />
     <Compile Include="특별한 이차원 배열 1.cs" />
+    <Compile Include="특이한 정렬.cs" />
     <Compile Include="특정 문자 제거하기.cs" />
     <Compile Include="특정 문자열로 끝나는 가장 긴 부분 문자열 찾기.cs" />
     <Compile Include="특정한 문자를 대문자로 바꾸기.cs" />
