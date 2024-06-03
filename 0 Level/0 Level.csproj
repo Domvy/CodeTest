@@ -48,6 +48,7 @@
     <Compile Include="7의 개수.cs" />
     <Compile Include="A 강조하기.cs" />
     <Compile Include="ad 제거하기.cs" />
+    <Compile Include="A나누기B.cs" />
     <Compile Include="A로 B만들기.cs" />
     <Compile Include="I로 만들기.cs" />
     <Compile Include="k의 개수.cs" />

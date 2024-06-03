@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Bronze.A_B___4</StartupObject>
+    <StartupObject>Bronze.그대로_출력하기</StartupObject>
   </PropertyGroup>
 
 </Project>
